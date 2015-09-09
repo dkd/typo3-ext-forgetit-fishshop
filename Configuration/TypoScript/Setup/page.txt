@@ -1,0 +1,16 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:css_styled_content/static/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:form/Configuration/TypoScript/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:news/Configuration/TypoScript/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:cmis_service/Configuration/TypoScript/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:aggregation/Configuration/TypoScript/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pofconnector/Configuration/TypoScript/setup.txt">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/setup.txt">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:forgetit_fishshop/Configuration/TypoScript/Setup/Plugin/plugin.tx_news.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:forgetit_fishshop/Configuration/TypoScript/Setup/Lib/lib.language.txt">
+
+config.no_cache = 1
+page.10.variables.logoFile.value = fileadmin/graphics/logo_normal.png
+
+

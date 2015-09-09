@@ -1,0 +1,10 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:css_styled_content/static/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:news/Configuration/TypoScript/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:aggregation/Configuration/TypoScript/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:cmis_service/Configuration/TypoScript/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pofconnector/Configuration/TypoScript/constants.txt">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.txt">
+
+
+page.theme.copyright.text = Fake's Famous Fishshop is part of the  <a href="https://www.forgetit-project.eu" target="_blank">ForgetIT project</a>

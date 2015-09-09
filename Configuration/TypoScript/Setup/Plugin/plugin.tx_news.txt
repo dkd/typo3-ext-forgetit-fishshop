@@ -1,0 +1,36 @@
+plugin.tx_news {
+	view {
+		templateRootPaths {
+			3 = EXT:forgetit_fishshop/Resources/Private/Templates/Extensions/News/Templates/
+		}
+		partialRootPaths {
+			3 = EXT:forgetit_fishshop/Resources/Private/Templates/Extensions/News/Partials/
+		}
+		layoutRootPaths {
+			3 = EXT:forgetit_fishshop/Resources/Private/Templates/Extensions/News/Layouts/
+		}
+	}
+	settings {
+	
+		
+		
+		list {
+			list {
+				media {
+					image {
+						maxWidth = 300
+						maxHeight = 300
+					}
+				}
+			}
+		}
+		
+		detail {
+			media {
+				image {
+					maxWidth = 320
+				}
+			}
+		}
+	}
+}

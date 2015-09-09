@@ -1,0 +1,3 @@
+# no external access for typoscript
+Order allow,deny
+Deny from All

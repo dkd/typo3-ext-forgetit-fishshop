@@ -1,0 +1,3 @@
+lib.language >
+lib.language = TEXT
+lib.language.value = Website built with TYPO3 by dkd Internet GmbH
