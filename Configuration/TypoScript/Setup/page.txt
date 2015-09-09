@@ -12,5 +12,3 @@
 
 config.no_cache = 1
 page.10.variables.logoFile.value = fileadmin/graphics/logo_normal.png
-
-
