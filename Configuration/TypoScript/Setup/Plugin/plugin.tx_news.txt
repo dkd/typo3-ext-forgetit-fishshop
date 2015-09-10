@@ -11,20 +11,14 @@ plugin.tx_news {
 		}
 	}
 	settings {
-	
-		
-		
 		list {
-			list {
-				media {
-					image {
-						maxWidth = 300
-						maxHeight = 300
-					}
+			media {
+				image {
+					maxWidth = 300
+					maxHeight = 300
 				}
 			}
 		}
-		
 		detail {
 			media {
 				image {
