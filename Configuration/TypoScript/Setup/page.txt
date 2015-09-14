@@ -11,4 +11,23 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:forgetit_fishshop/Configuration/TypoScript/Setup/Lib/lib.language.txt">
 
 config.no_cache = 1
-page.10.variables.logoFile.value = fileadmin/graphics/logo_normal.png
+
+page {
+	10 {
+		variables {
+			logoFile.value = fileadmin/graphics/logo_normal.png
+			currentPageId = TEXT
+			currentPageId.data = TSFE:id
+		}
+		
+		templateRootPaths {
+			3 = EXT:forgetit_fishshop/Resources/Private/Templates/Page/
+		}
+		partialRootPaths {
+			3 = EXT:forgetit_fishshop/Resources/Private/Partials/Page/
+		}
+		layoutRootPaths {
+			3 = EXT:forgetit_fishshop/Resources/Private/Layouts/Page/
+		}
+	}
+}
