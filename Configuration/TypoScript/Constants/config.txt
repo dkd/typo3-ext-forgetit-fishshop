@@ -7,4 +7,4 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.txt">
 
 
-page.theme.copyright.text = Fake's Famous Fishshop is part of the  <a href="https://www.forgetit-project.eu" target="_blank">ForgetIT project</a>
+page.theme.copyright.text = Fake's Famous Fishshop is part of the  <a href="https://www.forgetit-project.eu" target="_blank">ForgetIT project</a> / <LINK 205></LINK>
