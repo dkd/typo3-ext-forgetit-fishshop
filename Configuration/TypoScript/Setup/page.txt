@@ -19,6 +19,8 @@ page {
 			logoFile.value = fileadmin/graphics/logo_normal.png
 			currentPageId = TEXT
 			currentPageId.data = TSFE:id
+			showFishlikeInFooter = TEXT
+			showFishlikeInFooter.value = 1
 		}
 		
 		templateRootPaths {
@@ -32,3 +34,8 @@ page {
 		}
 	}
 }
+
+# no fishlike fpr pages on news pages
+[PIDinRootline = 258]
+page.10.variables.showFishlikeInFooter.value = 0
+[global]
